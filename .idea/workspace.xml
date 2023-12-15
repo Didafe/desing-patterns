@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd722928-8945-4230-88de-45e7f67a2b57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/solucao/ClientJarOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/solucao/JarOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/solucao/TestOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/Marca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/problema/TesteVendaCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/problema/VendaCarroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroFIAT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroFORD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroValorMaiorQueCemMil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/SemDireitoADesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/TesteVendaCarroComChainOfResponsibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/VendaCarroServiceComChainOfResponsibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/TipoContratacaoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/problema/ReajusteAnualSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCLT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCooperativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioEstagio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioPJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/ReajusteAnualSalarioComStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" afterDir="false" />
+    <list default="true" id="bd722928-8945-4230-88de-45e7f67a2b57" name="Changes" comment="Second commit">
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/TemplateMethod/solucao/RepararoVeiculoComumServiceComTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/TemplateMethod/solucao/RepararoVeiculoLuxoServiceComTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/TemplateMethod/solucao/ReparoVeiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/TemplateMethod/solucao/TesteRepararVeiculosComTemplateMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +55,14 @@
       <recent name="br.com.designpattern.prototype.solucao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.designpattern.TemplateMethod.solucao" />
       <recent name="br.com.designpattern.chainofresponsability.solucao" />
       <recent name="br.com.designpattern.strategy.solucao" />
       <recent name="br.com.designpattern.prototype.problema" />
       <recent name="br.com.designpattern.singleton.solucao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteVendaCarroComChainOfResponsibility">
-    <configuration name="TestOperacoesContaCorrenteAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.adapter.solucao.TestOperacoesContaCorrenteAdapter" />
-      <module name="curso-designpatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.designpattern.adapter.solucao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TesteRepararVeiculosComTemplateMethod">
     <configuration name="TesteAjusteSalarioComStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.designpattern.strategy.solucao.TesteAjusteSalarioComStrategy" />
       <module name="curso-designpatterns" />
@@ -110,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAjusteSalarioSemStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.strategy.problema.TesteAjusteSalarioSemStrategy" />
+    <configuration name="TesteRepararVeiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.TemplateMethod.problema.TesteRepararVeiculos" />
       <module name="curso-designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.designpattern.strategy.problema.*" />
+          <option name="PATTERN" value="br.com.designpattern.TemplateMethod.problema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteRepararVeiculosComTemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.TemplateMethod.solucao.TesteRepararVeiculosComTemplateMethod" />
+      <module name="curso-designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.designpattern.TemplateMethod.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteRepararVeiculosComTemplateMethod" />
+        <item itemvalue="Application.TesteRepararVeiculos" />
         <item itemvalue="Application.TesteVendaCarroComChainOfResponsibility" />
         <item itemvalue="Application.TesteVendaCarro" />
         <item itemvalue="Application.TesteAjusteSalarioComStrategy" />
-        <item itemvalue="Application.TesteAjusteSalarioSemStrategy" />
-        <item itemvalue="Application.TestOperacoesContaCorrenteAdapter" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +159,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

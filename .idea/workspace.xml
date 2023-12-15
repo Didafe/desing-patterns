@@ -2,51 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd722928-8945-4230-88de-45e7f67a2b57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/curso-designpatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/problema/ClientJarOperacoesContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/problema/JarOperacoesContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/builder/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/builder/problema/TestePessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/builder/solucao/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/builder/solucao/PessoaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/builder/solucao/TesteAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/builder/solucao/TestePessoaComBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/ProdutoDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/ProdutoFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/TipoProdutoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/problema/TesteProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/solucao/ProdutoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/factorymethods/solucao/TesteProdutoComFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/problema/Botao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/problema/BotaoAmarelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/problema/BotaoAzul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/problema/BotaoVermelho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/problema/TipoBordaEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/solucao/BotaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/solucao/BotaoRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/prototype/solucao/TesteBotaoPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/PessoaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/PessoaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/problema/PessoaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/solucao/NovoPessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/solucao/PessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/solucao/ProxyPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/proxy/solucao/TestePessoaComProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/singleton/problema/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/singleton/problema/TesteAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/singleton/solucao/AgendaSingletonEAGER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/singleton/solucao/AgendaSingletonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/singleton/solucao/AgendaSingletonLAZY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/singleton/solucao/TesteAgendaComSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/solucao/ClientJarOperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/solucao/JarOperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/solucao/TestOperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/Marca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/problema/TesteVendaCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/problema/VendaCarroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroFIAT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroFORD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroValorMaiorQueCemMil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/SemDireitoADesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/TesteVendaCarroComChainOfResponsibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/VendaCarroServiceComChainOfResponsibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/TipoContratacaoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/problema/ReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCLT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCooperativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioEstagio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioPJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/ReajusteAnualSalarioComStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -87,7 +69,7 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -95,17 +77,19 @@
       <recent name="br.com.designpattern.prototype.solucao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.designpattern.chainofresponsability.solucao" />
+      <recent name="br.com.designpattern.strategy.solucao" />
       <recent name="br.com.designpattern.prototype.problema" />
       <recent name="br.com.designpattern.singleton.solucao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestePessoaComProxy">
-    <configuration name="PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.proxy.problema.PessoaTest" />
+  <component name="RunManager" selected="Application.TesteVendaCarroComChainOfResponsibility">
+    <configuration name="TestOperacoesContaCorrenteAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.adapter.solucao.TestOperacoesContaCorrenteAdapter" />
       <module name="curso-designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.designpattern.proxy.*" />
+          <option name="PATTERN" value="br.com.designpattern.adapter.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAgenda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.singleton.problema.TesteAgenda" />
+    <configuration name="TesteAjusteSalarioComStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.strategy.solucao.TesteAjusteSalarioComStrategy" />
       <module name="curso-designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.designpattern.singleton.problema.*" />
+          <option name="PATTERN" value="br.com.designpattern.strategy.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAgendaComSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.singleton.solucao.TesteAgendaComSingleton" />
+    <configuration name="TesteAjusteSalarioSemStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.strategy.problema.TesteAjusteSalarioSemStrategy" />
       <module name="curso-designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.designpattern.singleton.solucao.*" />
+          <option name="PATTERN" value="br.com.designpattern.strategy.problema.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteBotaoPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.prototype.solucao.TesteBotaoPrototype" />
+    <configuration name="TesteVendaCarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.chainofresponsibility.problema.TesteVendaCarro" />
       <module name="curso-designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.designpattern.prototype.solucao.*" />
+          <option name="PATTERN" value="br.com.designpattern.chainofresponsibility.problema.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestePessoaComProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.proxy.solucao.TestePessoaComProxy" />
+    <configuration name="TesteVendaCarroComChainOfResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.designpattern.chainofresponsibility.solucao.TesteVendaCarroComChainOfResponsibility" />
       <module name="curso-designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.designpattern.proxy.solucao.*" />
+          <option name="PATTERN" value="br.com.designpattern.chainofresponsibility.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestePessoaComProxy" />
-        <item itemvalue="Application.PessoaTest" />
-        <item itemvalue="Application.TesteBotaoPrototype" />
-        <item itemvalue="Application.TesteAgendaComSingleton" />
-        <item itemvalue="Application.TesteAgenda" />
+        <item itemvalue="Application.TesteVendaCarroComChainOfResponsibility" />
+        <item itemvalue="Application.TesteVendaCarro" />
+        <item itemvalue="Application.TesteAjusteSalarioComStrategy" />
+        <item itemvalue="Application.TesteAjusteSalarioSemStrategy" />
+        <item itemvalue="Application.TestOperacoesContaCorrenteAdapter" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +180,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroFIAT.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroFORD.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/designpattern/chainofresponsibility/solucao/DescontoCarroValorMaiorQueCemMil.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
